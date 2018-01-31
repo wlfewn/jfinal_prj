@@ -1,0 +1,73 @@
+#define paginate(currentPage, totalPage, link)
+	#if(totalPage <= 0 || currentPage > totalPage) #return #end
+	#setLocal(startPage = currentPage - 4)
+	#if (startPage < 1) #setLocal(startPage = 1) #end
+	
+	#setLocal(endPage = currentPage + 4)
+	#if (endPage > totalPage) #setLocal(endPage = totalPage) #end
+	
+	<div class="col-xs-6">
+		<div class="dataTables_paginate paging_simple_numbers" id="dynamic-table_paginate">
+			<ul class="pagination">
+					#if (currentPage <= 8)
+						#setLocal(startPage = 1)
+					#end
+					#if ((totalPage - currentPage) < 8)
+						#setLocal(endPage = totalPage)
+					#end
+					
+					#if (currentPage == 1)
+						<li class="paginate_button previous disabled" 
+							aria-controls="dynamic-table" tabindex="0" 
+							id="dynamic-table_previous"><span>上一页</span></li>
+					#else
+						<li class="paginate_button previous" 
+							aria-controls="dynamic-table" tabindex="0" 
+							id="dynamic-table_previous">
+							<a href="#(link)#(currentPage - 1)#(append)" class="prev_page">上一页</a>
+						</li>
+					#end
+					
+					#if (currentPage > 8)
+						<a href="#(link)#(1)#(append)">#(1)</a>
+						<a href="#(link)#(2)#(append)">#(2)</a>
+						<span class="gap">…</span>
+					#end
+					
+					#for(i : [startPage..endPage])
+						#if (currentPage == i)
+							<li class="paginate_button active" aria-controls="dynamic-table" tabindex="#(i)">
+								<span href="#">#(i)</span>
+							</li>
+						#else
+							<li class="paginate_button" aria-controls="dynamic-table" tabindex="#(i)">
+								<a href="#(link)#(i)#(append)">#(i)</a>
+							</li>
+						#end
+					#end
+					
+					#if ((totalPage - currentPage) >= 8)
+						<li class="paginate_button disabled" aria-controls="dynamic-table" >
+							<span>…</span>
+						</li>
+						<li class="paginate_button " aria-controls="dynamic-table" tabindex="#(totalPage - 1)">
+							<a href="#(link)#(totalPage - 1)#(append)">#(totalPage - 1)</a>
+						</li>
+						<li class="paginate_button " aria-controls="dynamic-table" tabindex="#(totalPage)">
+							<a href="#(link)#(totalPage)#(append)">#(totalPage)</a>
+						</li>
+					#end
+					
+					#if (currentPage == totalPage)
+						<li class="paginate_button next disabled" aria-controls="dynamic-table" 
+							id="dynamic-table_next"><span>下一页</span></li>
+					#else
+						<li class="paginate_button next" aria-controls="dynamic-table" 
+							id="dynamic-table_next">
+								<a href="#(link)#(currentPage + 1)#(append)">下页</a>
+						</li>
+					#end
+			</ul>
+		</div>
+	</div>
+#end

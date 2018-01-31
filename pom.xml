@@ -1,0 +1,140 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.demo</groupId>
+  <artifactId>jfinal01</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>jfinal01 Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+    	<groupId>com.jfinal</groupId>
+    	<artifactId>jfinal</artifactId>
+    	<version>3.3</version>
+    </dependency>
+    <!-- 日志部分 -->
+    <dependency>
+    	<groupId>log4j</groupId>
+    	<artifactId>log4j</artifactId>
+    	<version>1.2.16</version>
+    </dependency>
+    <dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-log4j12</artifactId>
+	    <version>1.7.21</version>
+	</dependency>
+	<!-- 日志end -->
+    <dependency>
+    	<groupId>com.jfinal</groupId>
+    	<artifactId>cos</artifactId>
+    	<version>2017.5</version>
+    </dependency>
+    <dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<version>5.1.44</version>
+    </dependency>
+	<dependency>
+		<groupId>com.alibaba</groupId>
+		<artifactId>druid</artifactId>
+		<version>1.0.29</version>
+	</dependency>
+    <dependency>
+    	<groupId>com.jfinal</groupId>
+    	<artifactId>jetty-server</artifactId>
+    	<version>8.1.8</version>
+    	<!--
+			此处的 scope 值为 compile 仅为支持 IDEA 下启动项目
+			打 war 包时需要改成 provided，以免将一些无用的 jar 打进去
+		-->
+    	<scope>compile</scope>
+    </dependency>
+    
+    <!-- spring cecurity -->
+	<!-- <dependency>
+	    <groupId>org.springframework.security</groupId>
+	    <artifactId>spring-security-core</artifactId>
+	    <version>4.2.3.RELEASE</version>
+	</dependency> -->
+	
+	<!-- 需要加入这个包 -->	
+	<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-juli -->
+	 <dependency>
+	    <groupId>org.apache.tomcat</groupId>
+	    <artifactId>tomcat-juli</artifactId>
+	    <version>8.0.48</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+	<!-- 时间处理工具 -->
+	<dependency>
+	    <groupId>joda-time</groupId>
+	    <artifactId>joda-time</artifactId>
+	    <version>2.9.9</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/net.sf.ehcache/ehcache -->
+	<!-- 缓存插件使用jar包，不加入会出错 -->
+	<dependency>
+	    <groupId>net.sf.ehcache</groupId>
+	    <artifactId>ehcache</artifactId>
+	    <version>2.10.2</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+	<!-- json转换工具类,不然controller json转换会出错 -->
+	<dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.9.0</version>
+	</dependency>
+	
+		
+  </dependencies>
+  <build>
+    <finalName>jfinal01</finalName>
+     <!-- 指定jdk版本 -->
+    <plugins>  
+        <plugin>  
+            <groupId>org.apache.maven.plugins</groupId>  
+             <artifactId>maven-compiler-plugin</artifactId>  
+             <version>3.1</version>  
+             <configuration>  
+                 <source>1.8</source>  
+                 <target>1.8</target>  
+             </configuration>  
+         </plugin>  
+         <plugin>
+		    <groupId>org.mortbay.jetty</groupId>
+		    <artifactId>jetty-maven-plugin</artifactId>
+		    <version>8.1.8.v20121106</version>
+		    <configuration>
+		        <stopKey>stop</stopKey>
+		        <stopPort>5599</stopPort>
+		        <webAppConfig>
+		            <contextPath>/</contextPath>
+		        </webAppConfig>
+		        <scanIntervalSeconds>5</scanIntervalSeconds>
+		        <connectors>
+		            <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+		                <port>80</port>
+		                <maxIdleTime>60000</maxIdleTime>
+		            </connector>
+		        </connectors>
+		    </configuration>
+		  </plugin>
+     </plugins>  
+  </build>
+</project>
