@@ -54,7 +54,7 @@
 									<li class="">
 										<a data-toggle="tab" href="#messages" aria-expanded="false">
 											产品图片
-											<span id="imageCount" class="badge badge-danger">0</span>
+											<span id="imageCount" class="badge badge-danger">#(imagesList.size()??0)</span>
 										</a>
 									</li>
 								
@@ -62,13 +62,17 @@
 
 								<div class="tab-content">
 									<div id="home" class="tab-pane fade active in">
-										<form id="realForm" action="/admin/product/save" method="post" class="form-horizontal" role="form">
+										<form id="realForm" action="#(actionUrl)" method="post" class="form-horizontal" role="form">
+											
+											<input type="hidden" name="product.id" value="#(product.id??)"/>
 											
 											<div class="form-group">
 												<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 产品名称  </label>
 			
 												<div class="col-sm-9">
-													<input required="required" data-mainattr="产品名称" type="text" id="form-field-1" name="product.name" placeholder="名称" class="col-xs-10 col-sm-5" />
+													<input required="required" data-mainattr="产品名称" type="text" id="form-field-1" 
+														name="product.name" placeholder="名称" class="col-xs-10 col-sm-5" 
+														value="#(product.name??)"/>
 													<div class="margin-left-5 red help-block col-xs-12  col-sm-reset inline">#(nameError??)</div>
 												</div>
 											</div>
@@ -77,7 +81,9 @@
 												<label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 折前价  </label>
 			
 												<div class="col-sm-9">
-													<input required="required" data-mainattr="折前价 " type="number" id="form-field-2" name="product.marketPrice" placeholder="折前价" class="col-xs-10 col-sm-5" />
+													<input required="required" data-mainattr="折前价 " type="number" 
+														id="form-field-2" name="product.marketPrice" placeholder="折前价" class="col-xs-10 col-sm-5" 
+														value="#(product.marketPrice??)"/>
 													<div class="margin-left-5 red help-block col-xs-12  col-sm-reset inline">#(marketPriceError??)</div>
 												</div>
 											</div>
@@ -86,7 +92,9 @@
 												<label class="col-sm-3 control-label no-padding-right" for="form-field-3"> 折后价  </label>
 			
 												<div class="col-sm-9">
-													<input required="required" data-mainattr="折后价 " type="number" id="form-field-3" name="product.discountPrice" placeholder="折后价" class="col-xs-10 col-sm-5" />
+													<input required="required" data-mainattr="折后价 " type="number" 
+														id="form-field-3" name="product.discountPrice" placeholder="折后价" class="col-xs-10 col-sm-5"
+														value="#(product.discountPrice??)" />
 													<div class="margin-left-5 red help-block col-xs-12  col-sm-reset inline">#(discountPriceError??)</div>
 												</div>
 											</div>
@@ -94,26 +102,33 @@
 											<div class="form-group">
 												<label class="col-sm-3 control-label no-padding-right" for="form-field-4"> 描述  </label>
 												<div class="col-sm-9">
-													<textarea class="col-xs-10 col-sm-5" name="product.decribition" maxlength="100" id="form-field-4" placeholder="简要描述"></textarea>
+													<textarea class="col-xs-10 col-sm-5" name="product.decribition" maxlength="100" 
+														id="form-field-4" placeholder="简要描述">#(product.decribition??)</textarea>
 												</div>
 											</div>
 											
+											#if(notNull(imagesList))
+												#for(image : imagesList)
+													<input type="hidden" id="#(image.name)" name="images" value="#(image.id)">
+												#end
+											#end
 										</form>
 									</div><!-- .home -->
 
 									<div id="messages" class="tab-pane fade">
 										<div>
-											<form action="/file/upload" class="dropzone well" id="dropzone" 
+											<!-- action="/file/upload" -->
+											<form  class="dropzone well" id="dropzone" 
 												method="post" enctype="multipart/form-data">
-												<div class="fallback">
-													<input name="file" type="file" multiple="multiple" />
+												<div class="fallback" >
+													<input name="file" type="file" multiple="multiple" /> 
 												</div>
 											</form>
 										</div>
 										<div id="preview-template" class="hide">
-											<!-- <div class="dz-preview dz-file-preview">
+											 <div class="dz-preview dz-file-preview">
 												<div class="dz-image">
-													<img data-dz-thumbnail="" />
+													<img style="width: 120px;" data-dz-thumbnail="" />
 												</div>
 		
 												<div class="dz-details">
@@ -149,7 +164,7 @@
 														<i class="fa fa-remove fa-stack-1x fa-inverse red"></i>
 													</span>
 												</div>
-											</div> -->
+											</div> 
 										</div><!-- PAGE CONTENT ENDS -->		
 									</div><!-- .messages -->
 									
@@ -180,10 +195,29 @@
 	</div>	
 	#include("../common/scripts.html")
 	<!-- page specific plugin scripts -->
-	<script src="#(BASE_PATH)/static/ace/js/dropzone.min.js"></script>
+	<script src="#(BASE_PATH)/static/ace/js/dropzone.js"></script>
+	<!-- <script type="text/javascript">
+		jQuery(function($){
+			var $imageCount = $("#imageCount");
+			Dropzone.autoDiscover = false;
+			
+			$("#dropzone").dropzone({
+				url: "/file/upload",
+				
+			})
+		})
+	</script> -->
 	<script type="text/javascript">
 			jQuery(function($){
 				var $imageCount = $("#imageCount");
+				//配置toast
+				toastr.options = {
+					closeButton: true,
+					positionClass: 'toast-top-center',
+					timeOut: '2000',
+					progressBar: true
+				}
+				
 				try {
 				  Dropzone.autoDiscover = false;
 				
@@ -192,10 +226,49 @@
 					acceptedFiles: 'image/*',//可上传图片类型
 				    previewTemplate: $('#preview-template').html(),
 				    
+				    //初始化已上传图片
+				    //https://stackoverflow.com/questions/24009298/dropzone-js-display-existing-files-on-server
+				    init: function(){
+				    	#-- 
+		    			这是多行注释
+		    			--#
+		    			###使用模板渲染
+				    	#if(notNull(imagesList))
+				    		
+				    		#for(image : imagesList)
+				    			var uploadedFile = {
+					    			name: '#(image.name)',
+					    			size: '#(image.size)',
+					    			type: '#(image.contentType)',
+					    			//'#(image.relativePath)'
+					    			upload: {
+					    				filename: '#(image.name)',
+					    				progress: 100
+					    			},
+					    			accepted: true
+					    		}
+			    				this.files.push(uploadedFile);    // add to files array
+			    				this.emit("addedfile", uploadedFile);
+						    	this.emit("thumbnail", uploadedFile, '#(BASE_PATH)/#(uploadPath)/');
+						    	this.emit("complete", uploadedFile);
+				    		#end
+				    	#end
+				    },
+				    //文件重命名,使用uuid代替
+				    renameFile: function(file){
+				    	//console.log('renameFile',file.name);
+				    	var fileName = file.name;
+				    	var imageType = fileName.substring(fileName.indexOf("."));
+				    	var uuid = $.uuidCreator();
+				    	//console.log('renameFile',uuid + imageType);
+				    	return uuid + imageType;
+				    },
+				    
 					thumbnailHeight: 120,
 				    thumbnailWidth: 120,
 				    maxFilesize: 0.5,//MB
-					
+				    //maxFiles: ,//最大上传数,以后再处理
+				    
 					addRemoveLinks : true,
 					//dictRemoveFile: 'Remove',
 					
@@ -205,65 +278,76 @@
 					<i class="upload-icon ace-icon fa fa-cloud-upload blue fa-3x"></i>'
 				,
 					
+					//生成缩略图
 				    thumbnail: function(file, dataUrl) {
 				      if (file.previewElement) {
 				        $(file.previewElement).removeClass("dz-file-preview");
 				        var images = $(file.previewElement).find("[data-dz-thumbnail]").each(function() {
 							var thumbnailElement = this;
 							thumbnailElement.alt = file.name;
-							thumbnailElement.src = dataUrl;
+							//console.log('file',file);
+							if(dataUrl.indexOf('http')>-1){
+								thumbnailElement.src = dataUrl + file.name;
+							}else{
+								thumbnailElement.src = dataUrl;
+							}
 						});
 				        setTimeout(function() { $(file.previewElement).addClass("dz-image-preview"); }, 1);
 				      }
 				    },
 				    
+				    //文件在调用这里上传方法
+				    /*accept: function(file, done){
+				    	//console.log('file name',file.name);
+				    },*/
+				    
 				    // Handle the responseText here. For example, add the text to the preview element:
 				    success: function(file, responseText){
+				    	console.log(file);
 				    	//上传成功
 				    	if(responseText.status == 'success'){
 				    		fileId = responseText.data.id
-				    		file.name = responseText.message;//图片新名称
-					    	$("#realForm").append('<input id="'+file.name+'" type="hidden" name="images" value="'+fileId+'" />');
+					    	$("#realForm").append('<input id="'+file.upload.filename+'" type="hidden" name="images" value="'+fileId+'" />');
 					    	//数量加1
 					    	$imageCount.html(Number($imageCount.html())+1);
+					    	toastr.success('图片上传成功');
 				    	}else{
-				    		bootbox.alert("图片上传失败");
+				    		//bootbox.alert("图片上传失败");
+				    		toastr.error('图片上传失败');
 				    	}
 				    	//console.log('file',file);
 				    	//console.log('responseText',responseText);
 				    },
 				    //这里需要服务器做删除图片,处理
 				    removedfile: function(file){
-				    	var fileName = file.name;
+				    	var fileName = file.upload.filename;
 				    	//console.log('fileId',fileId);
 				    	if(fileName){
 					    	$.post('/file/delete',{name: fileName},function(res){
-					    		console.log(res);
+					    		//console.log(res);
 					    		if(res.status == 'success' ){
 					    			$("#"+file.name).remove();//移除html元素
 					    			//删除文件缩略图
 					    			//数量减1
 							    	$imageCount.html(Number($imageCount.html())-1);
+							    	toastr.success('图片删除成功');
+							    	//删除文件缩略图
+							    	if (file.previewElement != null && file.previewElement.parentNode != null) {
+							            file.previewElement.parentNode.removeChild(file.previewElement);
+							         }
+							         return this._updateMaxFilesReachedClass();
 					    		}else{
-					    			
+					    			toastr.error('图片删除失败，文件不存在');
 					    		}
 					    	},'json');
 				    	}
 				    }
 				  });
-				  
-				   //remove dropzone instance when leaving this page in ajax mode
-				   $(document).one('ajaxloadstart.page', function(e) {
-					   //console.log("remove");
-						try {
-							myDropzone.destroy();
-						} catch(e) {}
-				   });
-				
 				} catch(e) {
 				  alert('浏览器版本过低，无法使用图片上传!');
 				}
 			});
+			
 			
 			function checkForm(){
 				var count = 0;

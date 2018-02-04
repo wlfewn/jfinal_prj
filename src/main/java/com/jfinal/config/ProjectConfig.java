@@ -2,10 +2,12 @@ package com.jfinal.config;
 
 import java.util.List;
 
+
 import com.jfinal.common.Constant;
 import com.jfinal.controller.FileController;
 import com.jfinal.controller.ImageCodeController;
 import com.jfinal.core.JFinal;
+import com.jfinal.directive.GetSessionDirective;
 import com.jfinal.ext.interceptor.SessionInViewInterceptor;
 import com.jfinal.handler.BasePathHandler;
 import com.jfinal.interceptor.ExceptionInterceptor;
@@ -24,6 +26,10 @@ import com.jfinal.routes.member.MemberRoutes;
 import com.jfinal.template.Engine;
 import com.jfinal.utils.Config;
 import com.jfinal.utils.MenuUtil;
+import com.jfinal.weixin.sdk.api.ApiConfigKit;
+import com.jfinal.wx.controller.WeixinApiController;
+import com.jfinal.wx.controller.WeixinMsgController;
+import com.jfinal.wx.controller.WeixinPayController;
 
 /**
  * jfinal全局配置
@@ -58,6 +64,10 @@ public class ProjectConfig extends JFinalConfig{
 		//me.setError403View(Config.getStr("PAGES.403"));
 		me.setError404View(Config.getStr("PAGES.404"));
 		me.setError500View(Config.getStr("PAGES.500"));
+		//微信部分配置
+		// ApiConfigKit 设为开发模式可以在开发阶段输出请求交互的 xml 与 json 数据
+		//ApiConfigKit.setDevMode(me.getDevMode());
+		
 	}
 
 	/**
@@ -73,6 +83,10 @@ public class ProjectConfig extends JFinalConfig{
 		//验证码请求
 		me.add("/imageCode", ImageCodeController.class);
 		me.add("/file",FileController.class);//文件上传
+		//微信部分
+		//me.add("/msg", WeixinMsgController.class);
+		//me.add("/api", WeixinApiController.class, "/api");
+		//me.add("/pay", WeixinPayController.class);
 	}
 	
 	/**
@@ -82,6 +96,8 @@ public class ProjectConfig extends JFinalConfig{
 	public void configEngine(Engine me) {
 		// devMode 配置为 true，将支持模板实时热加载
 		me.setDevMode(true);
+		//加入扩展的指令,要在标签引用之前加入
+		me.addDirective("getSession", GetSessionDirective.class);
 		//如果模板中通过 #define 指令定义了 template function，并且希望这些 template function 可以在其它模板中直接调用的话，可以进行如下配置：
 		// 添加共享函数，随后可在任意地方调用这些共享函数
 		me.addSharedFunction("/pages/admin/common/_paginate.html");
@@ -89,7 +105,10 @@ public class ProjectConfig extends JFinalConfig{
 		
 		//加入addSharedMethod后可以在模板其他地方直接调用方法名
 		me.addSharedMethod(MenuUtil.class);
-		me.addSharedMethod(StrKit.class);//系统工具类
+		me.addSharedMethod(StrKit.class);//框架自带工具类
+		
+		//下面方法已过时
+		//me.addDirective("getSession",new GetSessionDirective());
 	}
 
 	/**
@@ -106,6 +125,9 @@ public class ProjectConfig extends JFinalConfig{
 		druidPlugin.start();
 		// 配置ActiveRecord插件
 		ActiveRecordPlugin arp = new ActiveRecordPlugin(druidPlugin);
+		//显示sql语句
+		arp.setShowSql(true);
+		
 		// 所有映射在 MappingKit 中自动化搞定
 		_MappingKit.mapping(arp);
 		me.add(arp);
@@ -126,6 +148,7 @@ public class ProjectConfig extends JFinalConfig{
 		me.add(new LoginInterceptor());
 		//用于获取session数据
 		me.add(new SessionInViewInterceptor());
+		
 	}
 	
 	/**

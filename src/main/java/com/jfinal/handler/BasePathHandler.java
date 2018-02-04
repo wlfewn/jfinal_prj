@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.jfinal.aop.Before;
+import com.jfinal.common.Constant;
 import com.jfinal.config.Menu;
 import com.jfinal.kit.StrKit;
 import com.jfinal.plugin.ehcache.CacheInterceptor;
@@ -45,6 +46,7 @@ public class BasePathHandler extends Handler{
 				+ ":" + request.getServerPort() + path ;
 //System.out.println("basePath="+basePath);
 		request.setAttribute(basePathName, basePath);
+		request.setAttribute("uploadPath", Constant.uploadPath);
 		request.setAttribute("ctx", basePath);
 		next.handle(target, request, response, isHandled);
 	}

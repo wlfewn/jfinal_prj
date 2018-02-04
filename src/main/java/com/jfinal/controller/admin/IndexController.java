@@ -8,6 +8,7 @@ import com.jfinal.message.utils.MessageUtil;
 import com.jfinal.model.SysUser;
 import com.jfinal.service.SysUserService;
 import com.jfinal.utils.ImageCode;
+import com.jfinal.utils.MenuUtil;
 import com.jfinal.validate.LoginValidator;
 
 public class IndexController extends Controller{
@@ -55,6 +56,8 @@ public class IndexController extends Controller{
 	
 	
 	public void home(){
+		//更新菜单缓存
+		MenuUtil.updateSelect("home");
 		render("/pages/admin/home.html");
 	}
 	

@@ -59,13 +59,13 @@ public abstract class BaseImages<M extends BaseImages<M>> extends Model<M> imple
 		return getStr("update_by_id");
 	}
 
-	public M setSize(java.lang.Double size) {
+	public M setSize(java.lang.Integer size) {
 		set("size", size);
 		return (M)this;
 	}
 	
-	public java.lang.Double getSize() {
-		return getDouble("size");
+	public java.lang.Integer getSize() {
+		return getInt("size");
 	}
 
 	public M setDistUrl(java.lang.String distUrl) {
@@ -94,5 +94,13 @@ public abstract class BaseImages<M extends BaseImages<M>> extends Model<M> imple
 	public java.lang.String getType() {
 		return getStr("type");
 	}
-
+	
+	public java.lang.String getContentType(){
+		return getStr("content_type");
+	}
+	
+	public M setContentType(java.lang.String contentType){
+		set("content_type", contentType);
+		return (M)this;
+	}
 }

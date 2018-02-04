@@ -30,48 +30,67 @@ public class ImagesService extends BaseService{
 	 * @return
 	 */
 	public Message upload(UploadFile uploadFile) {
+		//不修改文件名称情况
+		String uploadPath = uploadFile.getUploadPath();
+		//F:\\git_git_repository_jfinal\\jfinal01\\src\\main\\webapp\\upload
+		String fileName = uploadFile.getFileName();
+		
 		File file = uploadFile.getFile();
-		Path path = Paths.get(file.toURI());
-		Message message;
-		try {
-			//图片处理
-			String uploadPath = uploadFile.getUploadPath();
-			String newFileName = SerialNumberUtil.createUUID();
-			String fileName = uploadFile.getFileName();
-			
-			//获取图片后缀
-			String fileType = fileName.substring(fileName.lastIndexOf("."));
-			String newFileNameAndType = newFileName+fileType;
-			String filePath = uploadPath+File.separator+newFileNameAndType;
-			
-			FileOutputStream fileOutputStream 
-				= new FileOutputStream(new File(filePath));
-			//1kb = 1024字节
-			long bytes = Files.copy(path, fileOutputStream);
-			
-			Images images = new Images();
-			images.setDistUrl(filePath);//绝对路径
-			images.setId(SerialNumberUtil.createUUID());
-			//用于url访问相对路径
-			images.setRelativePath(Constant.uploadPath+"/"+newFileNameAndType);
-			images.setCreateDate(new Date());
-			images.setUpdateDate(images.getCreateDate());
-			images.setSize(new Double(bytes));
-			images.setName(newFileNameAndType);
-			images.save();
-			//上传成功，返回保存的新图片名称
-			message = new MessageWithData(Status.success, "上传成功", images);
-		} catch (IOException e) {
-			e.printStackTrace();
-			message = MessageUtil.createErrorMsg("上传失败");
-		}
-		//最后删除原来的文件
-		try {
-			Files.deleteIfExists(path);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return message;
+		Images images = new Images();
+		images.setDistUrl( uploadPath+File.separator+ fileName);//绝对路径
+		images.setId(SerialNumberUtil.createUUID());
+		//用于url访问相对路径
+		images.setRelativePath(Constant.uploadPath + "/" + fileName);
+		images.setCreateDate(new Date());
+		images.setUpdateDate(images.getCreateDate());
+		images.setSize((int) file.length());
+		images.setName(fileName);
+		images.setContentType(uploadFile.getContentType());
+		images.save();
+		return new MessageWithData(Status.success, "上传成功", images);
+		
+//		File file = uploadFile.getFile();
+//		Path path = Paths.get(file.toURI());
+//		Message message;
+//		try {
+//			//图片处理
+//			String uploadPath = uploadFile.getUploadPath();
+//			String newFileName = SerialNumberUtil.createUUID();
+//			String fileName = uploadFile.getFileName();
+//			
+//			//获取图片后缀
+//			String fileType = fileName.substring(fileName.lastIndexOf("."));
+//			String newFileNameAndType = newFileName+fileType;
+//			String filePath = uploadPath+File.separator+newFileNameAndType;
+//			
+//			FileOutputStream fileOutputStream 
+//				= new FileOutputStream(new File(filePath));
+//			//1kb = 1024字节
+//			long bytes = Files.copy(path, fileOutputStream);
+//			
+//			Images images = new Images();
+//			images.setDistUrl(filePath);//绝对路径
+//			images.setId(SerialNumberUtil.createUUID());
+//			//用于url访问相对路径
+//			images.setRelativePath(Constant.uploadPath+"/"+newFileNameAndType);
+//			images.setCreateDate(new Date());
+//			images.setUpdateDate(images.getCreateDate());
+//			images.setSize(new Double(bytes));
+//			images.setName(newFileNameAndType);
+//			images.save();
+//			//上传成功，返回保存的新图片名称
+//			message = new MessageWithData(Status.success, "上传成功", images);
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//			message = MessageUtil.createErrorMsg("上传失败");
+//		}
+//		//最后删除原来的文件
+//		try {
+//			Files.deleteIfExists(path);
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//		return message;
 	}
 	
 	/**
@@ -106,5 +125,8 @@ public class ImagesService extends BaseService{
 		return Images.dao.find("select * from t_images where id in (?) ",inparam);
 	}
 	
+	public List<Images> findByResourceId(String sourceId){
+		return Images.dao.find("select * from t_images where source_id = ?",sourceId);
+	}
 	
 }

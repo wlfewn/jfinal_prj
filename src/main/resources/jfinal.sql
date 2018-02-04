@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50131
 File Encoding         : 65001
 
-Date: 2018-01-31 14:23:18
+Date: 2018-02-04 14:58:27
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -58,7 +58,7 @@ CREATE TABLE `sys_user` (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES ('1', '2018-01-29 21:17:36', '2018-01-31 13:57:54', 'admin', '$2a$10$HmSdTZ2rI9xQlwzYYSyQgeuoXCEQZm8AmP4WkH1slGNYnBYCSkfZ2', '2018-01-31 13:57:54', '0:0:0:0:0:0:0:1');
+INSERT INTO `sys_user` VALUES ('1', '2018-01-29 21:17:36', '2018-02-01 16:59:32', 'admin', '$2a$10$HmSdTZ2rI9xQlwzYYSyQgeuoXCEQZm8AmP4WkH1slGNYnBYCSkfZ2', '2018-02-01 16:59:32', '0:0:0:0:0:0:0:1');
 
 -- ----------------------------
 -- Table structure for t_advertisement
@@ -136,12 +136,13 @@ CREATE TABLE `t_images` (
   `update_date` datetime DEFAULT NULL,
   `create_by_id` varchar(64) DEFAULT NULL,
   `update_by_id` varchar(64) DEFAULT NULL,
-  `size` double(11,2) NOT NULL DEFAULT '0.00' COMMENT '图片大小,单位：字节',
+  `size` int(11) NOT NULL DEFAULT '0' COMMENT '图片大小,单位：字节',
   `dist_url` varchar(255) NOT NULL COMMENT '图片路径',
   `source_id` varchar(64) DEFAULT NULL COMMENT '关联记录id',
   `type` char(1) DEFAULT NULL COMMENT '图片类型，0产品图片，1广告图片',
   `relative_path` varchar(255) NOT NULL COMMENT '相对路径',
   `name` varchar(255) NOT NULL COMMENT '图片名称',
+  `content_type` varchar(50) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `source_id` (`source_id`) USING BTREE,
   KEY `type` (`type`) USING BTREE
@@ -150,6 +151,8 @@ CREATE TABLE `t_images` (
 -- ----------------------------
 -- Records of t_images
 -- ----------------------------
+INSERT INTO `t_images` VALUES ('317dd2d0774f48d18bf2ed79b46d2f45', '2018-02-01 16:59:55', '2018-02-01 17:00:11', null, '1', '323643', 'F:\\git_git_repository_jfinal\\jfinal01\\src\\main\\webapp\\upload\\8d9f3b2860ead767e183419a94da0663.jpg', '499178e0f8f94a2fac47792dfb360769', '0', 'upload/8d9f3b2860ead767e183419a94da0663.jpg', '8d9f3b2860ead767e183419a94da0663.jpg', 'image/jpeg');
+INSERT INTO `t_images` VALUES ('54bb2992e45141c99b480e8a5aadd3c7', '2018-02-01 16:59:45', '2018-02-01 17:00:11', null, '1', '357561', 'F:\\git_git_repository_jfinal\\jfinal01\\src\\main\\webapp\\upload\\15fab152b6c515e7d132afec17d11939.jpg', '499178e0f8f94a2fac47792dfb360769', '0', 'upload/15fab152b6c515e7d132afec17d11939.jpg', '15fab152b6c515e7d132afec17d11939.jpg', 'image/jpeg');
 
 -- ----------------------------
 -- Table structure for t_order
@@ -258,7 +261,7 @@ CREATE TABLE `t_product` (
 -- ----------------------------
 -- Records of t_product
 -- ----------------------------
-INSERT INTO `t_product` VALUES ('499178e0f8f94a2fac47792dfb360769', '2018-01-31 13:42:02', '2018-01-31 13:42:02', 'test001', '0.00', '1.00', '1.00', '1', '1', null, '0.00', '0', '0', '\0', '\0');
+INSERT INTO `t_product` VALUES ('499178e0f8f94a2fac47792dfb360769', '2018-01-31 13:42:02', '2018-02-01 17:00:11', 'test001', '0.00', '1.00', '1.00', '1', '1', null, '0.00', '0', '0', '\0', '\0');
 
 -- ----------------------------
 -- Table structure for t_shipping
@@ -307,4 +310,25 @@ CREATE TABLE `t_shipping_item` (
 
 -- ----------------------------
 -- Records of t_shipping_item
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for wx_users
+-- ----------------------------
+DROP TABLE IF EXISTS `wx_users`;
+CREATE TABLE `wx_users` (
+  `openId` varchar(64) NOT NULL,
+  `nickName` varchar(255) NOT NULL,
+  `unionid` varchar(64) DEFAULT NULL,
+  `headimgurl` varchar(255) DEFAULT NULL,
+  `country` varchar(50) DEFAULT NULL,
+  `city` varchar(50) DEFAULT NULL,
+  `province` varchar(50) DEFAULT NULL,
+  `sex` varchar(3) DEFAULT NULL,
+  `updateTime` datetime DEFAULT NULL,
+  PRIMARY KEY (`openId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of wx_users
 -- ----------------------------

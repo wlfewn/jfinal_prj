@@ -101,6 +101,20 @@
 	    <version>2.9.0</version>
 	</dependency>
 	
+	<!-- https://mvnrepository.com/artifact/com.jfinal/jfinal-weixin -->
+	<!-- jfinal 微信配置需要jar包 -->
+	<dependency>
+	    <groupId>com.jfinal</groupId>
+	    <artifactId>jfinal-weixin</artifactId>
+	    <version>1.9</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>com.alibaba</groupId>
+		<artifactId>fastjson</artifactId>
+		<version>1.2.31</version>
+	</dependency>
+		
 		
   </dependencies>
   <build>

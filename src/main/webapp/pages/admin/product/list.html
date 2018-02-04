@@ -44,10 +44,7 @@
 	
 					<div class="row">
 						<div class="col-xs-12">
-							### 判断是否需要显示信息
-							#if(notNull(message))
-								#@message(message.status, message.message)
-							#end;
+							#@message()
 							<!-- <div class="alert alert-info">
 								<button class="close" data-dismiss="alert">
 									<i class="ace-icon fa fa-times"></i>
@@ -121,7 +118,6 @@
 															<td class="hidden-480">#(product.discountPrice)</td>
 															<td>#(product.updateDate)</td>
 															<td class="hidden-480">
-																<input type="hidden" name="marketState" value="#(product.marketState??)">
 																#if(product.marketState)
 																	<span class="label label-sm label-success">已上架</span>
 																#else
@@ -130,10 +126,12 @@
 															</td>
 															<td>
 																<div class="hidden-sm hidden-xs action-buttons">
-																	<a class="green" href="#" onclick="edit(this)">
+																	<a class="green" href="javascript:void(0)"
+																		onclick="$.productEdit('/admin/product/edit','#(product.marketState)','#(product.id)')">
 																		<i class="ace-icon fa fa-pencil bigger-130"></i>
 																	</a>
-																	<a class="red" href="#" onclick="delete(this)">
+																	<a class="red" href="javascript:void(0)" 
+																		onclick="myAdmin.productDelete('/admin/product/edit','#(product.marketState)','#(product.id)')">
 																		<i class="ace-icon fa fa-trash-o bigger-130"></i>
 																	</a>
 																</div>
@@ -297,10 +295,5 @@
 	
 	#include("../common/scripts.html")	
 	
-	<script type="text/javascript">
-		$(function(){
-			
-		})
-	</script>
 </body>
 </html>

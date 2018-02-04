@@ -27,7 +27,7 @@ public class FileController extends Controller{
 		UploadFile uploadFile = getFile();
 		//System.out.println(uploadFile.getFileName());
 		//System.out.println(uploadFile.getUploadPath());
-		//System.out.println(uploadFile.getContentType());
+		System.out.println(uploadFile.getContentType());
 		
 		Message message = imagesService.upload(uploadFile);
 		

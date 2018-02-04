@@ -22,4 +22,6 @@ public abstract class BaseController extends Controller{
 		return AdminUtil.getLoginUser(getSessionAttr(Constant.adminSessionKey));
 	}
 	
+	
+	
 }

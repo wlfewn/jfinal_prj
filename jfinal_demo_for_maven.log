@@ -1,0 +1,1887 @@
+
+2018-01-31 15:32:49
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-01-31 15:32:49
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-01-31 15:32:49
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 15:32:49
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 15:32:50
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-01-31 15:32:51
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-01-31 15:32:58
+[INFO]-[Thread: qtp1500608548-25]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product
+
+2018-01-31 19:00:34
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-01-31 19:00:34
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-01-31 19:00:34
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 19:00:34
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 19:00:36
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-01-31 19:00:38
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-01-31 19:00:47
+[INFO]-[Thread: qtp1500608548-23]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/home
+
+2018-01-31 22:24:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-01-31 22:24:06
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-01-31 22:24:06
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 22:24:06
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 22:24:07
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-01-31 22:24:09
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-01-31 23:08:20
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-01-31 23:08:20
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-01-31 23:08:20
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 23:08:20
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 23:08:20
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-01-31 23:08:22
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-01-31 23:08:27
+[INFO]-[Thread: qtp1500608548-24]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-01-31 23:25:42
+[INFO]-[Thread: qtp1500608548-29]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-01-31 23:31:32
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-01-31 23:31:33
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-01-31 23:31:33
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 23:31:33
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 23:31:33
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-01-31 23:31:35
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-01-31 23:31:56
+[INFO]-[Thread: qtp1500608548-29]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-01-31 23:35:39
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-01-31 23:35:39
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-01-31 23:35:39
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 23:35:39
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 23:35:40
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-01-31 23:35:41
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-01-31 23:35:46
+[INFO]-[Thread: qtp1500608548-27]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-01-31 23:39:36
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-01-31 23:39:36
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-01-31 23:39:36
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 23:39:36
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-01-31 23:39:37
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-01-31 23:39:38
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-01-31 23:39:44
+[INFO]-[Thread: qtp1500608548-26]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-01-31 23:45:57
+[INFO]-[Thread: qtp1500608548-29]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-02-01 00:10:41
+[INFO]-[Thread: qtp1500608548-28]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-02-01 00:32:42
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 00:32:43
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 00:32:43
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 00:32:43
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 00:32:43
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 00:32:44
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 00:32:51
+[INFO]-[Thread: qtp1500608548-27]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-02-01 00:40:43
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 00:40:43
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 00:40:43
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 00:40:43
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 00:40:44
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 00:40:45
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 00:41:36
+[INFO]-[Thread: qtp1500608548-27]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-02-01 10:06:06
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 10:06:07
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 10:06:07
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:06:07
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:06:07
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 10:06:09
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 10:06:17
+[INFO]-[Thread: qtp1500608548-29]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/home
+
+2018-02-01 10:12:41
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 10:12:41
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 10:12:41
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:12:41
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:12:41
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 10:12:43
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 10:12:51
+[INFO]-[Thread: qtp1500608548-23]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-02-01 10:21:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 10:21:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 10:21:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:21:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:21:05
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 10:21:07
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 10:22:55
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 10:22:55
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 10:22:55
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:22:55
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:22:56
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 10:22:57
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 10:23:08
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 10:23:09
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 10:23:09
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:23:09
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:23:09
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 10:23:10
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 10:26:00
+[INFO]-[Thread: qtp1500608548-27]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product
+
+2018-02-01 10:26:17
+[WARN]-[Thread: qtp1500608548-29]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /admin/order/
+
+2018-02-01 10:28:48
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 10:28:48
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 10:28:48
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:28:48
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:28:49
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 10:28:50
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 10:28:55
+[INFO]-[Thread: qtp1500608548-25]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/home
+
+2018-02-01 10:45:19
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 10:45:19
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 10:45:19
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:45:19
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 10:45:20
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 10:45:21
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 10:45:26
+[INFO]-[Thread: qtp1500608548-25]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product
+
+2018-02-01 13:54:47
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 13:54:48
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 13:54:48
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 13:54:48
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 13:54:48
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 13:54:49
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED jfinal: com.jfinal.template.stat.ParseException: Directive not found: #GetSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #GetSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:89)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:45)
+
+2018-02-01 13:54:49
+[WARN]-[Thread: main]-[org.eclipse.jetty.webapp.WebAppContext.doStart()]: Failed startup of context o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+com.jfinal.template.stat.ParseException: Directive not found: #GetSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:89)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:45)
+
+2018-02-01 13:54:49
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}: com.jfinal.template.stat.ParseException: Directive not found: #GetSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #GetSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:89)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:45)
+
+2018-02-01 13:54:49
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED org.eclipse.jetty.server.Server@1992eaf4: com.jfinal.template.stat.ParseException: Directive not found: #GetSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #GetSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:89)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:45)
+
+2018-02-01 13:54:49
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: Directive not found: #GetSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #GetSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:89)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:45)
+
+2018-02-01 13:58:47
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 13:58:47
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 13:58:47
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 13:58:47
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 13:58:48
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 13:58:49
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED jfinal: com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 13:58:49
+[WARN]-[Thread: main]-[org.eclipse.jetty.webapp.WebAppContext.doStart()]: Failed startup of context o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 13:58:49
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}: com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 13:58:49
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED org.eclipse.jetty.server.Server@18518ccf: com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 13:58:49
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:05:07
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 14:05:07
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 14:05:07
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:05:07
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:05:07
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 14:05:08
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED jfinal: com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:05:08
+[WARN]-[Thread: main]-[org.eclipse.jetty.webapp.WebAppContext.doStart()]: Failed startup of context o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:05:08
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}: com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:05:08
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED org.eclipse.jetty.server.Server@1c9f0a20: com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:05:08
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:05:44
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 14:05:44
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 14:05:44
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:05:44
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:05:45
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 14:05:46
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED jfinal: com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:05:46
+[WARN]-[Thread: main]-[org.eclipse.jetty.webapp.WebAppContext.doStart()]: Failed startup of context o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:05:46
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}: com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:05:46
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED org.eclipse.jetty.server.Server@18518ccf: com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:05:46
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+com.jfinal.template.stat.ParseException: Directive not found: #getSession
+Template: "/pages/admin/common/message.html". Line: 4
+	at com.jfinal.template.stat.Parser.stat(Parser.java:212)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.stat(Parser.java:175)
+	at com.jfinal.template.stat.Parser.statList(Parser.java:101)
+	at com.jfinal.template.stat.Parser.parse(Parser.java:91)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:90)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:08:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 14:08:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 14:08:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:08:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:08:06
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 14:08:07
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED jfinal: com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+	at com.jfinal.template.stat.Parser.parse(Parser.java:93)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:92)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:08:07
+[WARN]-[Thread: main]-[org.eclipse.jetty.webapp.WebAppContext.doStart()]: Failed startup of context o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+	at com.jfinal.template.stat.Parser.parse(Parser.java:93)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:92)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:08:07
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}: com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+	at com.jfinal.template.stat.Parser.parse(Parser.java:93)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:92)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:08:07
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED org.eclipse.jetty.server.Server@659eef7: com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+	at com.jfinal.template.stat.Parser.parse(Parser.java:93)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:92)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:08:07
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+	at com.jfinal.template.stat.Parser.parse(Parser.java:93)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:92)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:08:36
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 14:08:36
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 14:08:36
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:08:36
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:08:37
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 14:08:38
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED jfinal: com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+	at com.jfinal.template.stat.Parser.parse(Parser.java:93)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:92)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:08:38
+[WARN]-[Thread: main]-[org.eclipse.jetty.webapp.WebAppContext.doStart()]: Failed startup of context o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+	at com.jfinal.template.stat.Parser.parse(Parser.java:93)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:92)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:08:38
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}: com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+	at com.jfinal.template.stat.Parser.parse(Parser.java:93)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:92)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:08:38
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED org.eclipse.jetty.server.Server@659eef7: com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+	at com.jfinal.template.stat.Parser.parse(Parser.java:93)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:92)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:08:38
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+com.jfinal.template.stat.ParseException: Syntax error: can not match end
+Template: "/pages/admin/common/message.html". Line: 14
+	at com.jfinal.template.stat.Parser.parse(Parser.java:93)
+	at com.jfinal.template.EngineConfig.doAddSharedFunction(EngineConfig.java:92)
+	at com.jfinal.template.EngineConfig.addSharedFunction(EngineConfig.java:87)
+	at com.jfinal.template.Engine.addSharedFunction(Engine.java:238)
+	at com.jfinal.config.ProjectConfig.configEngine(ProjectConfig.java:92)
+	at com.jfinal.core.Config.configJFinal(Config.java:53)
+	at com.jfinal.core.JFinal.init(JFinal.java:63)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:133)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:70)
+	at com.jfinal.core.JFinal.start(JFinal.java:162)
+	at com.jfinal.config.ProjectConfig.main(ProjectConfig.java:46)
+
+2018-02-01 14:10:27
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 14:10:27
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 14:10:27
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:10:27
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:10:27
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 14:10:29
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 14:10:35
+[INFO]-[Thread: qtp1500608548-29]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product
+
+2018-02-01 14:10:48
+[ERROR]-[Thread: qtp1500608548-23]-[com.jfinal.core.ActionHandler.handle()]: /admin/product/
+com.jfinal.render.RenderException: java.lang.NullPointerException
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.handler.BasePathHandler.handle(BasePathHandler.java:49)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at com.jfinal.directive.GetSessionDirective.exec(GetSessionDirective.java:24)
+	at com.jfinal.template.stat.ast.StatList.exec(StatList.java:68)
+	at com.jfinal.template.stat.ast.Define.call(Define.java:105)
+	at com.jfinal.template.stat.ast.Call.exec(Call.java:49)
+	at com.jfinal.template.stat.ast.StatList.exec(StatList.java:68)
+	at com.jfinal.template.Template.render(Template.java:55)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 26 more
+
+2018-02-01 14:13:10
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 14:13:10
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 14:13:10
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:13:10
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 14:13:10
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 14:13:12
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 14:13:19
+[INFO]-[Thread: qtp1500608548-25]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product
+
+2018-02-01 14:13:29
+[ERROR]-[Thread: qtp1500608548-25]-[com.jfinal.core.ActionHandler.handle()]: /admin/product/
+com.jfinal.render.RenderException: com.jfinal.template.TemplateException: Field not found: "message.content" and getter method not found: "message.getContent()"
+Template: "/pages/admin/common/message.html". Line: 10
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.handler.BasePathHandler.handle(BasePathHandler.java:49)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.jfinal.template.TemplateException: Field not found: "message.content" and getter method not found: "message.getContent()"
+Template: "/pages/admin/common/message.html". Line: 10
+	at com.jfinal.template.expr.ast.Field.eval(Field.java:116)
+	at com.jfinal.template.stat.ast.Output.exec(Output.java:49)
+	at com.jfinal.template.stat.ast.StatList.exec(StatList.java:68)
+	at com.jfinal.directive.GetSessionDirective.exec(GetSessionDirective.java:40)
+	at com.jfinal.template.stat.ast.StatList.exec(StatList.java:68)
+	at com.jfinal.template.stat.ast.Define.call(Define.java:105)
+	at com.jfinal.template.stat.ast.Call.exec(Call.java:49)
+	at com.jfinal.template.stat.ast.StatList.exec(StatList.java:68)
+	at com.jfinal.template.Template.render(Template.java:55)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 26 more
+
+2018-02-01 15:49:00
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 15:49:01
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 15:49:01
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 15:49:01
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 15:49:01
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 15:49:02
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 15:58:48
+[INFO]-[Thread: qtp1500608548-27]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product
+
+2018-02-01 16:01:25
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 16:01:26
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 16:01:26
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:01:26
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:01:26
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 16:01:28
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 16:01:36
+[INFO]-[Thread: qtp1500608548-29]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-02-01 16:11:57
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 16:11:57
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 16:11:57
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:11:57
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:11:58
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 16:11:59
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 16:12:10
+[INFO]-[Thread: qtp1500608548-28]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-02-01 16:13:10
+[WARN]-[Thread: qtp1500608548-23]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /upload/
+
+2018-02-01 16:16:29
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 16:16:30
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 16:16:30
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:16:30
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:16:30
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 16:16:31
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 16:16:38
+[INFO]-[Thread: qtp1500608548-27]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-02-01 16:16:54
+[WARN]-[Thread: qtp1500608548-24]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /
+
+2018-02-01 16:19:45
+[WARN]-[Thread: qtp1500608548-28]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /
+
+2018-02-01 16:20:46
+[WARN]-[Thread: qtp1500608548-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /
+
+2018-02-01 16:21:17
+[WARN]-[Thread: qtp1500608548-27]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /
+
+2018-02-01 16:23:17
+[ERROR]-[Thread: qtp1500608548-29]-[com.jfinal.core.ActionHandler.handle()]: /admin/product/edit
+com.jfinal.render.RenderException: com.jfinal.template.TemplateException: "image" can not be null for accessed by "image.relativePath"
+Template: "/pages/admin/product/form.html". Line: 246
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.handler.BasePathHandler.handle(BasePathHandler.java:50)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.jfinal.template.TemplateException: "image" can not be null for accessed by "image.relativePath"
+Template: "/pages/admin/product/form.html". Line: 246
+	at com.jfinal.template.expr.ast.Field.eval(Field.java:66)
+	at com.jfinal.template.stat.ast.Output.exec(Output.java:49)
+	at com.jfinal.template.stat.ast.StatList.exec(StatList.java:68)
+	at com.jfinal.template.Template.render(Template.java:55)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 26 more
+
+2018-02-01 16:23:24
+[ERROR]-[Thread: qtp1500608548-28]-[com.jfinal.core.ActionHandler.handle()]: /admin/product/edit
+com.jfinal.render.RenderException: com.jfinal.template.TemplateException: "image" can not be null for accessed by "image.relativePath"
+Template: "/pages/admin/product/form.html". Line: 246
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.handler.BasePathHandler.handle(BasePathHandler.java:50)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.jfinal.template.TemplateException: "image" can not be null for accessed by "image.relativePath"
+Template: "/pages/admin/product/form.html". Line: 246
+	at com.jfinal.template.expr.ast.Field.eval(Field.java:66)
+	at com.jfinal.template.stat.ast.Output.exec(Output.java:49)
+	at com.jfinal.template.stat.ast.StatList.exec(StatList.java:68)
+	at com.jfinal.template.Template.render(Template.java:55)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 26 more
+
+2018-02-01 16:25:38
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 16:25:38
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 16:25:38
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:25:38
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:25:39
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 16:25:40
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 16:25:46
+[INFO]-[Thread: qtp1500608548-26]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-02-01 16:35:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 16:35:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 16:35:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:35:05
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:35:06
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 16:35:07
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 16:37:25
+[INFO]-[Thread: qtp1500608548-26]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit
+
+2018-02-01 16:42:18
+[ERROR]-[Thread: qtp1500608548-26]-[com.jfinal.interceptor.ExceptionInterceptor.intercept()]: 异常：
+java.lang.NullPointerException
+	at com.jfinal.service.ProductService.update(ProductService.java:103)
+	at com.jfinal.controller.admin.ProductController.update(ProductController.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.validate.Validator.intercept(Validator.java:86)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.interceptor.LoginInterceptor.intercept(LoginInterceptor.java:51)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.plugin.activerecord.tx.TxByMethods$1.run(TxByMethods.java:52)
+	at com.jfinal.plugin.activerecord.DbPro.tx(DbPro.java:770)
+	at com.jfinal.plugin.activerecord.DbPro.tx(DbPro.java:807)
+	at com.jfinal.plugin.activerecord.tx.TxByMethods.intercept(TxByMethods.java:50)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:20)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.handler.BasePathHandler.handle(BasePathHandler.java:51)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-02-01 16:45:20
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 16:45:20
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 16:45:20
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:45:20
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:45:20
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 16:45:22
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 16:45:32
+[INFO]-[Thread: qtp1500608548-26]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/update
+
+2018-02-01 16:45:52
+[WARN]-[Thread: qtp1500608548-25]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /upload/undefined
+
+2018-02-01 16:52:06
+[ERROR]-[Thread: qtp1500608548-27]-[com.jfinal.interceptor.ExceptionInterceptor.intercept()]: 异常：
+java.lang.NullPointerException
+	at com.jfinal.service.ProductService.update(ProductService.java:103)
+	at com.jfinal.controller.admin.ProductController.update(ProductController.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.validate.Validator.intercept(Validator.java:86)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.interceptor.LoginInterceptor.intercept(LoginInterceptor.java:51)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.plugin.activerecord.tx.TxByMethods$1.run(TxByMethods.java:52)
+	at com.jfinal.plugin.activerecord.DbPro.tx(DbPro.java:770)
+	at com.jfinal.plugin.activerecord.DbPro.tx(DbPro.java:807)
+	at com.jfinal.plugin.activerecord.tx.TxByMethods.intercept(TxByMethods.java:50)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:20)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.handler.BasePathHandler.handle(BasePathHandler.java:51)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-02-01 16:53:59
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 16:53:59
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 16:53:59
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:53:59
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:54:00
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 16:54:01
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 16:54:10
+[INFO]-[Thread: qtp1348949648-21]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/update
+
+2018-02-01 16:59:13
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-8.1.8.v20121106
+
+2018-02-01 16:59:13
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+
+2018-02-01 16:59:13
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:59:13
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized()]: started o.e.j.w.WebAppContext{/,file:/F:/git_git_repository_jfinal/jfinal01/src/main/webapp/}
+
+2018-02-01 16:59:14
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-02-01 16:59:15
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started SelectChannelConnector@0.0.0.0:8080
+
+2018-02-01 16:59:24
+[INFO]-[Thread: qtp1500608548-29]-[com.jfinal.interceptor.LoginInterceptor.intercept()]: ip:0:0:0:0:0:0:0:1未登陆请求链接:/admin/product/edit

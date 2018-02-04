@@ -1,12 +1,14 @@
 
-#define message(status,content)
+#define message()
 	
-	<div class="alert  alert-#(status)">
-		<button type="button" class="close" data-dismiss="alert">
-			<i class="ace-icon fa fa-times"></i>
-		</button>
-		<i class="ace-icon fa fa-hand-o-right"></i>
-		#(content)
-	</div>
+	#getSession("message")
+		<div class="alert  alert-#(message.status)">
+			<button type="button" class="close" data-dismiss="alert">
+				<i class="ace-icon fa fa-times"></i>
+			</button>
+			<i class="ace-icon fa fa-hand-o-right"></i>
+			#(message.message)
+		</div>
+	#end
 	
 #end
